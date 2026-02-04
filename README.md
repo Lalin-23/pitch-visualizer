@@ -74,3 +74,8 @@ Place project folder on your computer.
 ```bash
 python -m venv venv
 venv\Scripts\activate
+
+pip install -r requirements.txt
+
+Run Application
+python app.py
