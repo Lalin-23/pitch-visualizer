@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Storyboard</title>
+</head>
+
+<body>
+    <h1>Generated Storyboard</h1>
+
+    {% for panel in storyboard %}
+    <div style="margin-bottom:40px;">
+        <img src="{{ panel.image }}" width="512"><br>
+        <p>{{ panel.text }}</p>
+    </div>
+    {% endfor %}
+
+    <a href="/">Create Another</a>
+</body>
+
+</html>
